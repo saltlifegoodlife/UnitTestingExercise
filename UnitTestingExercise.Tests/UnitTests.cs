@@ -74,14 +74,14 @@ namespace UnitTestingExercise.Tests
         }
 
         [Fact]
-        public void GetHello()
+        public void BearsEatBeets()
         {
             //Arrange
             UnitTestMethods challenger = new UnitTestMethods();
             //Act
-            string actual = challenger.GetHello();
+            bool actual = challenger.BearsEatBeets();
             //Assert
-            Assert.Equal("Hello There!", actual);
+            Assert.True(actual);
         }
     }
 }

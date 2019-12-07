@@ -38,9 +38,10 @@ namespace UnitTestingExercise
             return "HEY!";
         }
 
-        public string GetHello()
+        public bool BearsEatBeets()
         {
-            return "Hello There!";
+            
+            return true;
         }
     }
 }
